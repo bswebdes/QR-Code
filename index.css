@@ -1,0 +1,65 @@
+* {
+    font-size: 16px;
+}
+body {
+    background-color: #D5E1EF;
+    margin: 0;
+    padding: 0;
+}
+main {
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1, p {
+    margin: 0;
+}
+.cart {
+    width: 100%;
+    max-width: 20rem;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.25rem;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+.cart p {
+    color: #7D889E;
+    font-size: 0.9375rem;
+    letter-spacing: 0.01175rem;
+    width: 16rem;
+    margin-bottom: 1.5rem;
+}
+.qr-code {
+    overflow: hidden;
+    border-radius: 0.625rem;
+    margin-bottom: 1.5rem;
+}
+.qr-image {
+    width: 100%;
+    height: 100%;
+}
+.cart-header {
+    color: #1F314F;
+    font-size: 1.375rem;
+    width: 18rem;
+    margin-bottom: 1rem;
+}
+.outfit-regular {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.outfit-bold {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
